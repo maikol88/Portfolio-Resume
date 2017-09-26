@@ -1,0 +1,62 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url(/assets/fonts/Raleway-ExtraBold.ttf) format("truetype");
+}
+
+#raleway-font{
+  font-family: 'Raleway', sans-serif;
+}
+
+.center-element{
+  text-align: center;
+}
+
+.jumbotron{
+  //background-image: asset-url('12.jpg');
+}
+
+.button_landing{
+  background-color: #C9302C;
+  color: #fff;
+}
+
+.button_landing:hover{
+  background-color:  #d9534f;
+  color: #fff;
+}
+
+body{
+  background: #f5f5f5;
+}
+//FOOTER------------------------------------------------------------------
+
+.rails-logo-small {
+  padding-top: 15px;
+  background-image: asset-url('rails-logo.png');
+  width: 60px;
+  height: auto;
+  padding-left: 5px;
+  display: inline;
+}
+
+//RESUME------------------------------------------------------------------
+.photo{
+  float: right;
+}
+.h1-no-margin{
+  margin: 0;
+}
+.well2{
+  background-color: #2A3949;
+  color: #fff;
+}
+.well3{
+  color: #333333;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
